@@ -1,0 +1,27 @@
+{
+  "name": "basic-tests-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surajverma2587/basic-tests-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/surajverma2587/basic-tests-nodejs/issues"
+  },
+  "homepage": "https://github.com/surajverma2587/basic-tests-nodejs#readme",
+  "devDependencies": {
+    "@types/jest": "^28.1.1",
+    "jest": "^28.1.1"
+  }
+}
